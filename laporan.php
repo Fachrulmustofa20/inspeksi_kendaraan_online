@@ -95,7 +95,7 @@
             <div class="container-fluid">
                 <!-- Date Picker -->
                 <div class="row">
-                    <div class="col-lg-4">   
+                    <div class="col-lg-5 col-sm-7 col-xs-12 col-12">   
                         <div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
                             <i class="fa fa-calendar"></i>&nbsp;
                             <span></span> <i class="fa fa-caret-down"></i>

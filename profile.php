@@ -103,7 +103,7 @@
                     <div class="col-lg-4 col-xlg-3 col-md-5">
                         <div class="card">
                             <div class="card-body">
-                                <center class="m-t-30"> <img src="assets/images/users/5.jpg" alt="image" class="rounded-circle" width="150">
+                                <center class="m-t-30"> <img src="assets/images/users/default.png" alt="image" class="rounded-circle" width="150">
                                     <h4 class="card-title mt-3">Fachrul Mustofa</h4>
                                     <h5 class="card-subtitle">Admin</h5>
                                     <div class="row text-center justify-content-md-center">
