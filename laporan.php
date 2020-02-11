@@ -43,13 +43,12 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-theme="dark" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
-        data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
+    <div id="main-wrapper" data-theme="dark" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
         <?php
-            include "top_bar.php";
+        include "top_bar.php";
         ?>
         <!-- ============================================================== -->
         <!-- End Topbar header -->
@@ -58,7 +57,7 @@
         <!-- Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
         <?php
-            include "side_bar.php";
+        include "side_bar.php";
         ?>
         <!-- ============================================================== -->
         <!-- End Left Sidebar - style you can find in sidebar.scss  -->
@@ -83,7 +82,7 @@
                             </nav>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <!-- ============================================================== -->
@@ -95,17 +94,20 @@
             <div class="container-fluid">
                 <!-- Date Picker -->
                 <div class="row">
-                    <div class="col-lg-5 col-sm-7 col-xs-12 col-12">   
+                    <div class="col-lg-5 col-sm-7 col-xs-12 col-12">
                         <div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
                             <i class="fa fa-calendar"></i>&nbsp;
                             <span></span> <i class="fa fa-caret-down"></i>
                         </div>
                     </div>
+                    <div class="col">
+                        <a href="" class="btn btn-danger btn-sm float-right"><i class="fas fa-print fa-sm mr-2"></i>Cetak Laporan</a>
+                    </div>
                 </div>
                 <!-- End Date Picker -->
 
-                 <!-- multi-column ordering -->
-                 <div class="row">
+                <!-- multi-column ordering -->
+                <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
@@ -115,175 +117,58 @@
                                     </div>
                                 </div>
                                 <div class="table-responsive">
-                                    <table id="multi_col_order"
-                                        class="table table-striped table-bordered display no-wrap" style="width:100%">
+                                    <table id="multi_col_order" class="table table-striped table-bordered display no-wrap" style="width:100%">
                                         <thead class="bg-primary text-white">
                                             <tr>
                                                 <th>No</th>
-                                                <th>Tanggal Presale</th>
-                                                <th>Nama Presale</th>
-                                                <th>Analyst</th>
-                                                <th>Category</th>
+                                                <th>Hari/Tanggal</th>
+                                                <th>Lokasi</th>
+                                                <th>Nama Lokasi</th>
+                                                <th>Nama Pengemudi</th>
+                                                <th>Umur</th>
+                                                <th>Nama PO</th>
+                                                <th>Nomor Kendaraan</th>
+                                                <th>Nomor STUK</th>
+                                                <th>Jenis Trayek</th>
+                                                <th>Trayek</th>
+                                                <th>Aksi</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            
+
                                             <tr>
                                                 <td>1</td>
                                                 <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ahmad</td>
-                                                <td>Presale</td>
+                                                <td>Dampyak</td>
+                                                <td>Pom Bensi Muri</td>
+                                                <td>Dasmad</td>
+                                                <td>90 Tahun</td>
+                                                <td>Kasnud</td>
+                                                <td>G 1945 sm</td>
+                                                <td>12345</td>
+                                                <td>AKAP</td>
+                                                <td>AKAPB</td>
+                                                <td>
+                                                    <a href="" class="btn btn-success btn-sm">Detail</a>
+                                                </td>
                                             </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>2/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Budi</td>
-                                                <td>Presale</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>3/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ahmad</td>
-                                                <td>Presale</td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>4/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ali</td>
-                                                <td>Presale</td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>5/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Budi</td>
-                                                <td>Presale</td>
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>6/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ana</td>
-                                                <td>Presale</td>
-                                            </tr>
-                                            <tr>
-                                                <td>7</td>
-                                                <td>7/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Budi</td>
-                                                <td>Presale</td>
-                                            </tr>
-                                            <tr>
-                                                <td>8</td>
-                                                <td>8/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ana</td>
-                                                <td>Presale</td>
-                                            </tr>
-                                            <tr>
-                                                <td>9</td>
-                                                <td>9/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Budi</td>
-                                                <td>Presale</td>
-                                            </tr>
-                                            <tr>
-                                                <td>10</td>
-                                                <td>10/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ana</td>
-                                                <td>Presale</td>
-                                            </tr>
-                                            <tr>
-                                                <td>11</td>
-                                                <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ahmad</td>
-                                                <td>Workorder</td>
-                                            </tr>
-                                            <tr>
-                                                <td>12</td>
-                                                <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Budi</td>
-                                                <td>Workorder</td>
-                                            </tr>
-                                            <tr>
-                                                <td>13</td>
-                                                <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ahmad</td>
-                                                <td>Workorder</td>
-                                            </tr>
-                                            <tr>
-                                                <td>14</td>
-                                                <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ali</td>
-                                                <td>Workorder</td>
-                                            </tr>
-                                            <tr>
-                                                <td>15</td>
-                                                <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Budi</td>
-                                                <td>Workorder</td>
-                                            </tr>
-                                            <tr>
-                                                <td>16</td>
-                                                <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ana</td>
-                                                <td>Workorder</td>
-                                            </tr>
-                                            <tr>
-                                                <td>17</td>
-                                                <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Budi</td>
-                                                <td>Workorder</td>
-                                            </tr>
-                                            <tr>
-                                                <td>18</td>
-                                                <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ana</td>
-                                                <td>Workorder</td>
-                                            </tr>
-                                            <tr>
-                                                <td>19</td>
-                                                <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Budi</td>
-                                                <td>Workorder</td>
-                                            </tr>
-                                            <tr>
-                                                <td>20</td>
-                                                <td>1/1/2020</td>
-                                                <td>PT. Internal Indonesia A</td>
-                                                <td>Ana</td>
-                                                <td>Workorder</td>
-                                            </tr>
+
 
                                         </tbody>
                                     </table>
                                 </div>
-                            
+
                             </div>
                         </div>
                     </div>
-                
+
                 </div>
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->
                 <!-- ============================================================== -->
-                
-                
-                
+
+
+
             </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
@@ -291,7 +176,7 @@
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            
+
             <!-- ============================================================== -->
             <!-- End footer -->
             <!-- ============================================================== -->
@@ -317,7 +202,7 @@
     <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
     <script src="dist/js/sidebarmenu.js"></script>
     <script src="assets/extra-libs/sparkline/sparkline.js"></script>
-    
+
     <!--Custom JavaScript -->
     <script src="dist/js/custom.min.js"></script>
     <!--This page JavaScript -->
@@ -331,36 +216,36 @@
     <!--This page plugins -->
     <script src="assets/extra-libs/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="dist/js/pages/datatable/datatable-basic.init.js"></script>
-    
+
     <!--Date Picker-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <script type="text/javascript">
-    $(function() {
+        $(function() {
 
-        var start = moment().subtract(29, 'days');
-        var end = moment();
+            var start = moment().subtract(29, 'days');
+            var end = moment();
 
-        function cb(start, end) {
-            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
-        }
-
-        $('#reportrange').daterangepicker({
-            startDate: start,
-            endDate: end,
-            ranges: {
-            'Today': [moment(), moment()],
-            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
-            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-            'This Month': [moment().startOf('month'), moment().endOf('month')],
-            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+            function cb(start, end) {
+                $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
             }
-        }, cb);
 
-        cb(start, end);
+            $('#reportrange').daterangepicker({
+                startDate: start,
+                endDate: end,
+                ranges: {
+                    'Today': [moment(), moment()],
+                    'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                    'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+                    'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                    'This Month': [moment().startOf('month'), moment().endOf('month')],
+                    'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+                }
+            }, cb);
 
-    });
+            cb(start, end);
+
+        });
     </script>
 
 </body>
