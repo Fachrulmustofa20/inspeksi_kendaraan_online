@@ -149,7 +149,7 @@
                                                 <td>AKAP</td>
                                                 <td>AKAPB</td>
                                                 <td>
-                                                    <a href="" class="btn btn-success btn-sm"><i class="fas fa-info-circle fa-sm mr-2"></i>Detail</a>
+                                                    <a href="detail.php" class="btn btn-success btn-sm"><i class="fas fa-info-circle fa-sm mr-2"></i>Detail</a>
                                                 </td>
                                             </tr>
 
