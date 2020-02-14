@@ -875,6 +875,7 @@
                                 </div>
                             </div>
 
+                            <!---->
                         </fieldset>
                         <h4><b>F. TANGGAP DARURAT</b></h4>
                         <label class="ml-3">21. Pintu Darurat</label>
