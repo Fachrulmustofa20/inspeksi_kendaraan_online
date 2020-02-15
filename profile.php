@@ -125,7 +125,7 @@
                                     <div class="form-group">
                                         <label for="example-email" class="col-md-12">Email</label>
                                         <div class="col-md-12">
-                                            <input type="email" class="form-control-plaintext" value="fachrulmustofa@gmail.com">
+                                            <input type="email" class="form-control-plaintext" value="fachrulmustofa@gmail.com" readonly>
                                         </div>
                                     </div>
 
