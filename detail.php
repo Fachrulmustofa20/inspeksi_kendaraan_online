@@ -72,13 +72,15 @@
             <div class="page-breadcrumb">
                 <div class="row">
                     <div class="col-7 align-self-center">
-                        <h3 class="page-title text-truncate text-dark font-weight-medium mb-1">Report</h3>
+                        <h3 class="page-title text-truncate text-dark font-weight-medium mb-1">Detail</h3>
                         <div class="d-flex align-items-center">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb m-0 p-0">
-                                    <li class="breadcrumb-item"><a href="index.php" class="text-muted">Menu</a></li>
-                                    <li class="breadcrumb-item text-muted active" aria-current="page">Report</li>
-                                    <li class="breadcrumb-item text-muted active" aria-current="page">Detail</li>
+                                    <ol class="breadcrumb mb-2">
+                                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="laporan.php">Laporan</a></li>
+                                        <li class="breadcrumb-item active">Detail</li>
+                                    </ol>
                                 </ol>
                             </nav>
                         </div>
@@ -93,344 +95,584 @@
             <!-- Container fluid  -->
             <!-- ============================================================== -->
             <div class="container-fluid">
-                <!-- Date Picker -->
-                <div class="row">
-                    <div class="col-lg-5 col-sm-7 col-xs-12 col-12">
-                        <div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
-                            <i class="fa fa-calendar"></i>&nbsp;
-                            <span></span> <i class="fa fa-caret-down"></i>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <a href="" class="btn btn-danger btn-sm float-right"><i class="fas fa-print fa-sm mr-2"></i>Cetak Laporan</a>
-                    </div>
-                </div>
-                <!-- End Date Picker -->
+                <!-- Content -->
 
-                <!-- multi-column ordering -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row mb-3">
-                                    <div class="col-md-9 col-6">
-                                        <h4 class="card-title">Tabel Hasil Unsur Administrasi</h4>
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        DATA PEMERIKSAAN / G 1945 SM / Dasmad
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        1. Hari/Tanggal
+                                    </div>
+                                    <div class="col-md-8">
+                                        : Senin/3 Feb 2019
                                     </div>
                                 </div>
-                                <div class="table-responsive">
-                                    <table id="multi_col_order" class="table table-striped table-bordered display no-wrap" style="width:100%">
-                                        <thead class="bg-primary text-white">
-                                            <tr>
-                                                <th>No</th>
-                                                <th>Kartu UjiSTUK</th>
-                                                <th>KP.Reguler</th>
-                                                <th>KP.Cadangan</th>
-                                                <th>SIM Pengemudi</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Ada, berlaku</td>
-                                                <td>Ada, berlaku</td>
-                                                <td>Ada, berlaku</td>
-                                                <td>A Umum</td>
-
-                                            </tr>
-
-
-                                        </tbody>
-                                    </table>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        6. Nama PD
+                                    </div>
+                                    <div class="col-md-8">
+                                        : Gatau Dah Sumpah
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        2. Lokasi
+                                    </div>
+                                    <div class="col-md-8">
+                                        : Terminal
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        7. Nomor Kndrn
+                                    </div>
+                                    <div class="col-md-8">
+                                        : G 1945 SM Regular
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        3. Nama Lok
+                                    </div>
+                                    <div class="col-md-8">
+                                        : Terminal Tegal
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        8. Nomor STUK
+                                    </div>
+                                    <div class="col-md-8">
+                                        : 12345
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        4. Nama Pngmd
+                                    </div>
+                                    <div class="col-md-8">
+                                        : Dasmad
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        9. Jns Trayek
+                                    </div>
+                                    <div class="col-md-8">
+                                        : Akap
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        5. Umur
+                                    </div>
+                                    <div class="col-md-8">
+                                        : 50
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        10. Trayek
+                                    </div>
+                                    <div class="col-md-8">
+                                        : Ini juga gatau
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="card mt-2">
+                    <div class="card-header bg-primary text-white">
+                        I. UNSUR ADMINISTRASI
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        1. Kartu Uji/STUK
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-success">Ada Berlaku</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        2. KP Reguler
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-danger">Tdk Berlaku</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        3. KP Cadangan (utk Kendaraan cadangan)
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-danger">Tdk ada</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        4. SIM Pngmdi
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-success">A Umum</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        II. UNSUR TEKNIS UTAMA
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="font-weight-bold">A. SISTEM PENERANGAN</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md">
+                                        1. Lampu Utama
+                                    </div>
+                                </div>
+                                <div class="row justify-content-end">
+                                    <div class="col-md-4">
+                                        a. Dekat
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-success">Semua Menyala</span>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-end">
+                                    <div class="col-md-4">
+                                        b. Jauh
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-success">Semua Menyala</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md">
+                                2. Lampu Petunjuk Arah (Sein)
+                            </div>
+                        </div>
+                        <div class="row justify-content-end">
+                            <div class="col-md-4">
+                                a. Depan
+                            </div>
+                            <div class="col-md-7">
+                                : <span class="badge badge-success">Semua Menyala</span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-end">
+                            <div class="col-md-4">
+                                b. Belakang
+                            </div>
+                            <div class="col-md-7">
+                                : <span class="badge badge-success">Semua Menyala</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                3. Lampu Rem
+                            </div>
+                            <div class="col-md-7">
+                                : <span class="badge badge-success">Semua Menyala</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                4. Lampu Mundur
+                            </div>
+                            <div class="col-md-7">
+                                : <span class="badge badge-success">Semua Menyala</span>
+                            </div>
+                        </div>
+
+                        <div class="row mt-2">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="font-weight-bold">B. SISTEM PENGEREMAN</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        5. Kondisi Rem Utama
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-success">Berfungsi</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        6. Kondisi Rem Parkir
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-success">Berfungsi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="font-weight-bold">C. BADAN KENDARAAN</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        7. Kondisi Kaca Depan
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-success">Baik</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="font-weight-bold">D. BAN</div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-end">
+                                    <div class="col-md-4">
+                                        a. Kondisi Ban Depan
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-success">Baik</span>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-end">
+                                    <div class="col-md-4">
+                                        b. Kondisi Ban Belakang
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-danger">Kiri Tidak Laik</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="font-weight-bold">E. PERLENGKAPAN</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        9. Sabuk Keselamatan Pengemudi
+                                    </div>
+                                    <div class="col-md-7">
+                                        : <span class="badge badge-success">Ada dan Fungsi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        III. UNSUR TEKNIS PENUNJANG
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="font-weight-bold">A. PENGUKURAN KECEPATAN</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                10. Pengukuran Kecepatan
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada dan Berfungsi</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="font-weight-bold">B. SISTEM PENGEREMAN</div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md">
+                                                        11. Lampu Posisi
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-end">
+                                                    <div class="col-md-4">
+                                                        a. Depan
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        : <span class="badge badge-success">Semua Menyala</span>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-end">
+                                                    <div class="col-md-4">
+                                                        b. Belakang
+                                                    </div>
+                                                    <div class="col-md-7">
+                                                        : <span class="badge badge-warning">Kiri Tidak Menyala</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-12">
+                                                <div class="font-weight-bold">C. BADAN KENDARAAN</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                12. Spion
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada dan Sesuai</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                13. Penghapus Kaca (Wiper)
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-warning">Tidak Berfungsi</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                14. Klakson
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-2">
+                                            <div class="col-md-12">
+                                                <div class="font-weight-bold">D. KAPASITAS TEMPAT DUDUK</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                15. Jlh Tmpt Duduk Penumpang
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Sesuai</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-12">
+                                                <div class="font-weight-bold">E. PERLENGKAPAN KENDARAAN</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                16. Ban Cadangan
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada Dan Laik</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                17. Segitiga Pengaman
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                18. Dongkrak
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                19. Pembuka Roda
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                20. Lampu Senter
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada</span>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-12">
+                                                <div class="font-weight-bold">F. TANGGAP DARURAT</div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                21. Pintu Darurat
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                22. Jendela Darurat
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                23. Alat Pemukul/Pemecah Kaca
+                                            </div>
+                                            <div class="col-md-7">
+                                                : <span class="badge badge-success">Ada</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <!-- ============================================================== -->
-                <!-- End PAge Content -->
-                <!-- ============================================================== -->
-                <!-- Date Picker -->
-                <div class="row">
-                    <div class="col-lg-5 col-sm-7 col-xs-12 col-12">
-                        <div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
-                            <i class="fa fa-calendar"></i>&nbsp;
-                            <span></span> <i class="fa fa-caret-down"></i>
-                        </div>
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        KESIMPULAN
                     </div>
-                    <div class="col">
-                        <a href="" class="btn btn-danger btn-sm float-right"><i class="fas fa-print fa-sm mr-2"></i>Cetak Laporan</a>
-                    </div>
-                </div>
-                <!-- End Date Picker -->
+                    <div class="card-body">
 
-                <!-- multi-column ordering -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row mb-3">
-                                    <div class="col-md-9 col-6">
-                                        <h4 class="card-title">Tabel Hasil Unsur Teknis Utama</h4>
+                        <div class="row">
+                            <div class="col-lg">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="font-weight-bold">Berdasarkan Hasil Diatas Maka Kendaraan Tersebut Dinyatakan:</div>
                                     </div>
                                 </div>
-                                <div class="table-responsive">
-                                    <table id="multi_col_order" class="table table-striped table-bordered display no-wrap" style="width:100%">
-                                        <thead class="bg-primary text-white text-center">
-                                            <tr>
-                                                <th rowspan="3">No</th>
-                                                <th colspan="6">Sistem Penerangan</th>
-                                                <th colspan="2">Sistem Pengereman</th>
-                                                <th>Badan Kendaraan</th>
-                                                <th colspan="2">BAN</th>
-                                                <th>Perlengkapan</th>
-                                            </tr>
-                                            <tr>
-                                                <th colspan="2">Lampu Utama Kendaraan</th>
-                                                <th colspan="2">Lampu Penunjuk Arah</th>
-                                                <th rowspan="2">Lampu Rem</th>
-                                                <th rowspan="2">Lampu Mundur</th>
-                                                <th rowspan="2">Kondisi Rem Utama</th>
-                                                <th rowspan="2">Kondisi Rem Parkir</th>
-                                                <th rowspan="2">Kondisi Kaca Depan</th>
-                                                <th rowspan="2">Kondisi Ban Depan</th>
-                                                <th rowspan="2">Kondisi Ban Belakang</th>
-                                                <th rowspan="2">Sabuk Keselamatan Pengemudi</th>
-                                            </tr>
-                                            <tr>
-                                                <th>Dekat</th>
-                                                <th>Jauh</th>
-                                                <th>Depan</th>
-                                                <th>Belakang</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-
-
-                                            <tr>
-                                                <th>1.</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Berfungsi</th>
-                                                <th>Berfungsi</th>
-                                                <th>Baik</th>
-                                                <th>Semua Laik</th>
-                                                <th>Semua Laik</th>
-                                                <th>Ada Dan Fungsi</th>
-                                            </tr>
-                                            <tr>
-                                                <th>2.</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Berfungsi</th>
-                                                <th>Berfungsi</th>
-                                                <th>Baik</th>
-                                                <th>Semua Laik</th>
-                                                <th>Semua Laik</th>
-                                                <th>Ada Dan Fungsi</th>
-                                            </tr>
-                                            <tr>
-                                                <th>3.</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Berfungsi</th>
-                                                <th>Berfungsi</th>
-                                                <th>Baik</th>
-                                                <th>Semua Laik</th>
-                                                <th>Semua Laik</th>
-                                                <th>Ada Dan Fungsi</th>
-                                            </tr>
-                                            <tr>
-                                                <th>4.</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Berfungsi</th>
-                                                <th>Berfungsi</th>
-                                                <th>Baik</th>
-                                                <th>Semua Laik</th>
-                                                <th>Semua Laik</th>
-                                                <th>Ada Dan Fungsi</th>
-                                            </tr>
-                                            <tr>
-                                                <th>5.</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Berfungsi</th>
-                                                <th>Berfungsi</th>
-                                                <th>Baik</th>
-                                                <th>Semua Laik</th>
-                                                <th>Semua Laik</th>
-                                                <th>Ada Dan Fungsi</th>
-                                            </tr>
-
-
-                                        </tbody>
-                                    </table>
+                                <div class="row mt-2">
+                                    <div class="col-md-12">
+                                        <button type="button" class="btn btn-success">
+                                            PERINGATAN/PERBAIKI</span>
+                                        </button>
+                                    </div>
                                 </div>
+                                <div class="row mt-2">
+                                    <div class="col-md">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="font-weight-bold">Catatan :</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <div class="font-weight-bold">Perbaiki Lagi</div>
+                                        </div>
 
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <!-- ============================================================== -->
-                <!-- End PAge Content -->
-                <!-- ============================================================== -->
-                <!-- Date Picker -->
-                <div class="row">
-                    <div class="col-lg-5 col-sm-7 col-xs-12 col-12">
-                        <div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
-                            <i class="fa fa-calendar"></i>&nbsp;
-                            <span></span> <i class="fa fa-caret-down"></i>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <a href="" class="btn btn-danger btn-sm float-right"><i class="fas fa-print fa-sm mr-2"></i>Cetak Laporan</a>
-                    </div>
-                </div>
-                <!-- End Date Picker -->
 
-                <!-- multi-column ordering -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row mb-3">
-                                    <div class="col-md-9 col-6">
-                                        <h4 class="card-title">Tabel Hasil Unsur Teknis Penunjang</h4>
-                                    </div>
-                                </div>
-                                <div class="table-responsive">
-                                    <table id="multi_col_order" class="table table-striped table-bordered display no-wrap" style="width:100%">
-                                        <thead class="bg-primary text-white text-center">
-                                            <tr>
-                                                <th rowspan="3">No</th>
-                                                <th>Pengukur Kecepatan</th>
-                                                <th colspan="2">Sistem Penerangan</th>
-                                                <th colspan="3">Badan Kendaraan</th>
-                                                <th>Kapasitas Tempat Duduk</th>
-                                                <th colspan="5">Perlengkapan Kendaraan</th>
-                                                <th colspan="3">Tanggap Darurat</th>
-                                            </tr>
-                                            <tr>
-                                                <th rowspan="2">Pengukur Kecepatan</th>
-                                                <th colspan="2">Lampu Posisi</th>
-                                                <th rowspan="2">Kaca Spion</th>
-                                                <th rowspan="2">Penghapus Kaca</th>
-                                                <th rowspan="2">Klakson</th>
-                                                <th rowspan="2">Jalan Tempat Duduk Penumpang</th>
-                                                <th rowspan="2">Ban Cadangan</th>
-                                                <th rowspan="2">Segitiga Pengaman </th>
-                                                <th rowspan="2">Dongkrak </th>
-                                                <th rowspan="2">Pembuka Roda </th>
-                                                <th rowspan="2">Lampu Senter </th>
-                                                <th rowspan="2">Pintu Darurat </th>
-                                                <th rowspan="2">Jendela Darurat </th>
-                                                <th rowspan="2">Alat Pemukul Pemecah Kaca </th>
-                                            </tr>
-                                            <tr>
-                                                <th>Depan</th>
-                                                <th>Belakang</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="text-center">
-
-                                            <tr>
-                                                <th>1.</th>
-                                                <th>Ada dan Berfungsi</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Ada dan Sesuai</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Sesuai</th>
-                                                <th>Ada dan Laik</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-
-                                            </tr>
-                                            <tr>
-                                                <th>2.</th>
-                                                <th>Ada dan Berfungsi</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Ada dan Sesuai</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Sesuai</th>
-                                                <th>Ada dan Laik</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-
-                                            </tr>
-                                            <tr>
-                                                <th>3.</th>
-                                                <th>Ada dan Berfungsi</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Semua Menyala</th>
-                                                <th>Ada dan Sesuai</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Sesuai</th>
-                                                <th>Ada dan Laik</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-                                                <th>Ada</th>
-
-                                            </tr>
-
-
-                                        </tbody>
-                                    </table>
-                                </div>
-
+                <div class="card">
+                    <div class="card-body">
+                        <!--  tabel ttd-->
+                        <div class="row">
+                            <div class="col-md-2">
+                                Keterangan :
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md">
+                                - Diijinkan/Laik : <span class="badge badge-success">Hijau</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md">
+                                - Peringatan/Perbaiki : <span class="badge badge-warning">Kuning</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md">
+                                - Dilarang/Tidak Laik : <span class="badge badge-success">Hijau</span>
+                            </div>
+                        </div>
+
                     </div>
-
                 </div>
-                <!-- ============================================================== -->
-                <!-- End PAge Content -->
-                <!-- ============================================================== -->
 
-
-
+                <!-- End Content --->
             </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
