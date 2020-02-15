@@ -85,9 +85,9 @@
 
                 </div>
             </div>
-            <!-- ============================================================== -->
-            <!-- End Bread crumb and right sidebar toggle -->
-            <!-- ============================================================== -->
+
+
+
             <!-- ============================================================== -->
             <!-- Container fluid  -->
             <!-- ============================================================== -->
@@ -106,25 +106,22 @@
                                 </div>
                             </div>
 
-                            <fieldset class="form-group">
-                                <div class="row">
-                                    <legend class="col-form-label col-sm-2 pt-0">Lokasi</legend>
-                                    <div class="col-sm-10">
-                                        <div class="form-check form-check-row">
-                                            <input class="form-check-input" type="checkbox" id="rowCheckbox1" value="option1">
-                                            <label class="form-check-label" for="rowCheckbox1">Terminal</label>
-                                        </div>
-                                        <div class="form-check form-check-row">
-                                            <input class="form-check-input" type="checkbox" id="rowCheckbox2" value="option2">
-                                            <label class="form-check-label" for="rowCheckbox2">Pool</label>
-                                        </div>
-                                        <div class="form-check form-check-row">
-                                            <input class="form-check-input" type="checkbox" id="rowCheckbox3" value="option3">
-                                            <label class="form-check-label" for="rowCheckbox3">Lainnya</label>
-                                        </div>
+
+                            <div class="row">
+                                <legend class="col-form-label col-sm-2 pt-0">Lokasi</legend>
+                                <div class="col-sm-10">
+
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[1]" value="1">
+                                        Terminal
+                                        <input type="radio" name="answer[1]" value="1">
+                                        Pool
+                                        <input type="radio" name="answer[1]" value="1">
+                                        Lainnya
                                     </div>
                                 </div>
-                            </fieldset>
+                            </div>
+
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Nama Lokasi</label>
                                 <div class="col-sm-10">
@@ -154,13 +151,11 @@
                                 <div class="row">
                                     <legend class="col-form-label col-sm-2 pt-0">Nomor Kendaraan</legend>
                                     <div class="col-sm-10">
-                                        <div class="form-check form-check-row">
-                                            <input class="form-check-input" type="checkbox" id="rowCheckbox1" value="option1">
-                                            <label class="form-check-label" for="rowCheckbox1">Reguler</label>
-                                        </div>
-                                        <div class="form-check form-check-row">
-                                            <input class="form-check-input" type="checkbox" id="rowCheckbox2" value="option2">
-                                            <label class="form-check-label" for="rowCheckbox2">Cadangan</label>
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[2]" value="Reguler">
+                                            Reguler
+                                            <input type="radio" name="answer[2]" value="cadangan">
+                                            Cadangan
                                         </div>
                                     </div>
                                 </div>
@@ -177,21 +172,15 @@
                                 <div class="row">
                                     <legend class="col-form-label col-sm-2 pt-0">Jenis Trayek</legend>
                                     <div class="col-sm-10">
-                                        <div class="form-check form-check-row">
-                                            <input class="form-check-input" type="checkbox" id="rowCheckbox1" value="option1">
-                                            <label class="form-check-label" for="rowCheckbox1">AKAP</label>
-                                        </div>
-                                        <div class="form-check form-check-row">
-                                            <input class="form-check-input" type="checkbox" id="rowCheckbox2" value="option2">
-                                            <label class="form-check-label" for="rowCheckbox2">AKDP</label>
-                                        </div>
-                                        <div class="form-check form-check-row">
-                                            <input class="form-check-input" type="checkbox" id="rowCheckbox2" value="option2">
-                                            <label class="form-check-label" for="rowCheckbox2">Pariwisa</label>
-                                        </div>
-                                        <div class="form-check form-check-row">
-                                            <input class="form-check-input" type="checkbox" id="rowCheckbox2" value="option2">
-                                            <label class="form-check-label" for="rowCheckbox2">MPU</label>
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[3]" value="AKAP">
+                                            AKAP
+                                            <input type="radio" name="answer[3]" value="AKDP">
+                                            AKDP
+                                            <input type="radio" name="answer[3]" value="PARIWISA">
+                                            PARIWISA
+                                            <input type="radio" name="answer[3]" value="MPU">
+                                            MPU
                                         </div>
                                     </div>
                                 </div>
@@ -225,21 +214,15 @@
                                 <div class="row">
                                     <legend class="col-form-label col-sm-2 pt-0">Kartu Uji/STUK</legend>
                                     <div class="col-sm-10">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                            <label class="form-check-label" for="inlineCheckbox1">Ada, berlaku</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                            <label class="form-check-label" for="inlineCheckbox2">Tidak berlaku</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">Tidak ada</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">Tidak sesuai fisik</label>
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[4]" value="ada">
+                                            Ada,berlaku
+                                            <input type="radio" name="answer[4]" value="tdkberlaku">
+                                            Tidak berlaku
+                                            <input type="radio" name="answer[4]" value="tidakada">
+                                            Tidak ada
+                                            <input type="radio" name="answer[4]" value="tdksesuai">
+                                            Tidak sesuai fisik
                                         </div>
                                     </div>
                                 </div>
@@ -248,21 +231,15 @@
                                 <div class="row">
                                     <legend class="col-form-label col-sm-2 pt-0">KP. Reguler</legend>
                                     <div class="col-sm-10">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                            <label class="form-check-label" for="inlineCheckbox1">Ada, berlaku</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                            <label class="form-check-label" for="inlineCheckbox2">Tidak berlaku</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">Tidak ada</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">Tidak sesuai fisik</label>
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[5]" value="ada">
+                                            Ada,berlaku
+                                            <input type="radio" name="answer[5]" value="tdkberlaku">
+                                            Tidak berlaku
+                                            <input type="radio" name="answer[5]" value="tidakada">
+                                            Tidak ada
+                                            <input type="radio" name="answer[5]" value="tdksesuai">
+                                            Tidak sesuai fisik
                                         </div>
                                     </div>
                                 </div>
@@ -271,21 +248,15 @@
                                 <div class="row">
                                     <legend class="col-form-label col-sm-2 pt-0">KP. Cadangan</legend>
                                     <div class="col-sm-10">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                            <label class="form-check-label" for="inlineCheckbox1">Ada, berlaku</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                            <label class="form-check-label" for="inlineCheckbox2">Tidak berlaku</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">Tidak ada</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">Tidak sesuai fisik</label>
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[6]" value="ada">
+                                            Ada,berlaku
+                                            <input type="radio" name="answer[6]" value="tdkberlaku">
+                                            Tidak berlaku
+                                            <input type="radio" name="answer[6]" value="tidakada">
+                                            Tidak ada
+                                            <input type="radio" name="answer[6]" value="tdksesuai">
+                                            Tidak sesuai fisik
                                         </div>
                                     </div>
                                 </div>
@@ -294,21 +265,16 @@
                                 <div class="row">
                                     <legend class="col-form-label col-sm-2 pt-0">Sim Pengemudi</legend>
                                     <div class="col-sm-10">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                            <label class="form-check-label" for="inlineCheckbox1">A Umum</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                            <label class="form-check-label" for="inlineCheckbox2">B1 Umum</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">B2 Umum</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">SIM Tidak sesuai</label>
+
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[7]" value="Aumum">
+                                            A umum
+                                            <input type="radio" name="answer[7]" value="B1umum">
+                                            B1 umum
+                                            <input type="radio" name="answer[7]" value="B2umum">
+                                            B2 umum
+                                            <input type="radio" name="answer[7]" value="simtdksesuai">
+                                            Sim tidak sesuai
                                         </div>
                                     </div>
                                 </div>
@@ -334,42 +300,30 @@
                             <div class="row ml-3">
                                 <legend class="col-form-label col-sm-2 pt-0">Dekat</legend>
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Semua menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kiri</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[8]" value="nyala">
+                                        Semua menyala
+                                        <input type="radio" name="answer[8]" value="nonyala">
+                                        Tidak menyala
+                                        <input type="radio" name="answer[8]" value="kanan">
+                                        Kanan
+                                        <input type="radio" name="answer[8]" value="kiri">
+                                        Kiri
                                     </div>
                                 </div>
                             </div>
                             <div class="row ml-3">
                                 <legend class="col-form-label col-sm-2 pt-0">Jauh</legend>
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Semua menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kiri</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[9]" value="nyala">
+                                        Semua menyala
+                                        <input type="radio" name="answer[9]" value="nonyala">
+                                        Tidak menyala
+                                        <input type="radio" name="answer[9]" value="kanan">
+                                        Kanan
+                                        <input type="radio" name="answer[9]" value="kiri">
+                                        Kiri
                                     </div>
                                 </div>
                             </div>
@@ -379,42 +333,30 @@
                             <div class="row ml-3">
                                 <legend class="col-form-label col-sm-2 pt-0">Depan</legend>
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Semua menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kiri</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[10]" value="nyala">
+                                        Semua menyala
+                                        <input type="radio" name="answer[10]" value="nonyala">
+                                        Tidak menyala
+                                        <input type="radio" name="answer[10]" value="kanan">
+                                        Kanan
+                                        <input type="radio" name="answer[10]" value="kiri">
+                                        Kiri
                                     </div>
                                 </div>
                             </div>
                             <div class="row ml-3">
                                 <legend class="col-form-label col-sm-2 pt-0">Belakang</legend>
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Semua menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kiri</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[11]" value="nyala">
+                                        Semua menyala
+                                        <input type="radio" name="answer[11]" value="nonyala">
+                                        Tidak menyala
+                                        <input type="radio" name="answer[11]" value="kanan">
+                                        Kanan
+                                        <input type="radio" name="answer[11]" value="kiri">
+                                        Kiri
                                     </div>
                                 </div>
                             </div>
@@ -424,21 +366,15 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Semua menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kiri</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[12]" value="nyala">
+                                        Semua menyala
+                                        <input type="radio" name="answer[12]" value="nonyala">
+                                        Tidak menyala
+                                        <input type="radio" name="answer[12]" value="kanan">
+                                        Kanan
+                                        <input type="radio" name="answer[12]" value="kiri">
+                                        Kiri
                                     </div>
                                 </div>
                             </div>
@@ -448,21 +384,15 @@
                         <fieldset class="form-group">
                             <div class="row ml-3">
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Semua menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Kiri</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[13]" value="nyala">
+                                        Semua menyala
+                                        <input type="radio" name="answer[13]" value="nonyala">
+                                        Tidak menyala
+                                        <input type="radio" name="answer[13]" value="kanan">
+                                        Kanan
+                                        <input type="radio" name="answer[13]" value="kiri">
+                                        Kiri
                                     </div>
                                 </div>
                             </div>
@@ -474,13 +404,12 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Berfungsi</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak Berfungsi</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[14]" value="berfungsi">
+                                        berfungsi
+                                        <input type="radio" name="answer[14]" value="noberfungsi">
+                                        Tidak berfungsi
+
                                     </div>
 
                                 </div>
@@ -492,13 +421,12 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Berfungsi</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak Berfungsi</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[15]" value="berfungsi">
+                                        berfungsi
+                                        <input type="radio" name="answer[15]" value="noberfungsi">
+                                        Tidak berfungsi
+
                                     </div>
 
                                 </div>
@@ -512,13 +440,12 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Baik</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Buruk</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[16]" value="baik">
+                                        Baik
+                                        <input type="radio" name="answer[16]" value="buruk">
+                                        Buruk
+
                                     </div>
 
                                 </div>
@@ -532,21 +459,15 @@
                                 <label class="ml-3">Depan</label>
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Semua Laik</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak Laik</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Kanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Kiri</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[17]" value="Semualaik">
+                                        Semua laik
+                                        <input type="radio" name="answer[17]" value="tdklaik">
+                                        Tidak laik
+                                        <input type="radio" name="answer[17]" value="kanan">
+                                        Kanan
+                                        <input type="radio" name="answer[17]" value="kiri">
+                                        Kiri
                                     </div>
 
                                 </div>
@@ -555,21 +476,15 @@
                                 <label class="ml-3">Belakang</label>
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Semua Laik</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak Laik</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Kanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Kiri</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[18]" value="Semualaik">
+                                        Semua laik
+                                        <input type="radio" name="answer[18]" value="tdklaik">
+                                        Tidak laik
+                                        <input type="radio" name="answer[18]" value="kanan">
+                                        Kanan
+                                        <input type="radio" name="answer[18]" value="kiri">
+                                        Kiri
                                     </div>
 
                                 </div>
@@ -583,13 +498,12 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada dan Fungsi</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak Fungsi/Tidak Ada</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[19]" value="adafungsi">
+                                        Ada dan berfungsi
+                                        <input type="radio" name="answer[19]" value="tidakadafungsi">
+                                        Tidak ada/tidak berfungsi
+
                                     </div>
 
                                 </div>
@@ -616,17 +530,14 @@
                         <fieldset class="form-group">
                             <div class="row ml-3">
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada dan berfungsi</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak berfungsi</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                        <label class="form-check-label" for="inlineCheckbox3">Tidak ada</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[20]" value="adafungsi">
+                                        Ada dan berfungsi
+                                        <input type="radio" name="answer[20]" value="tidakfungsi">
+                                        Tidak berfungsi
+                                        <input type="radio" name="answer[20]" value="tidakada">
+                                        Tidak ada
+
                                     </div>
 
                                 </div>
@@ -639,21 +550,15 @@
                             <div class="row ml-3">
                                 <label class="ml-3">Depan</label>
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Semua Menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak Menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Kanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Kiri</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[21]" value="nyala">
+                                        Semua menyala
+                                        <input type="radio" name="answer[21]" value="nonyala">
+                                        Tidak menyala
+                                        <input type="radio" name="answer[21]" value="kanan">
+                                        Kanan
+                                        <input type="radio" name="answer[21]" value="kiri">
+                                        Kiri
                                     </div>
 
                                 </div>
@@ -661,21 +566,15 @@
                             <div class="row ml-3">
                                 <label class="ml-3">Belakang</label>
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Semua Menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak Menyala</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Kanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Kiri</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[22]" value="nyala">
+                                        Semua menyala
+                                        <input type="radio" name="answer[22]" value="nonyala">
+                                        Tidak menyala
+                                        <input type="radio" name="answer[22]" value="kanan">
+                                        Kanan
+                                        <input type="radio" name="answer[22]" value="kiri">
+                                        Kiri
                                     </div>
 
                                 </div>
@@ -689,17 +588,14 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada dan sesuai</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak sesuai</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[23]" value="adasesuai">
+                                        Ada dan sesuai
+                                        <input type="radio" name="answer[23]" value="nosesuai">
+                                        Tidak sesuai
+                                        <input type="radio" name="answer[23]" value="tdkada">
+                                        Tidak ada
+
                                     </div>
 
                                 </div>
@@ -711,17 +607,14 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada dan sesuai</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak berfungsi</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[24]" value="adasesuai">
+                                        Ada dan sesuai
+                                        <input type="radio" name="answer[24]" value="nosesuai">
+                                        Tidak sesuai
+                                        <input type="radio" name="answer[24]" value="tdkada">
+                                        Tidak ada
+
                                     </div>
 
                                 </div>
@@ -733,17 +626,14 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada dan sesuai</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak berfungsi</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[25]" value="adasesuai">
+                                        Ada dan sesuai
+                                        <input type="radio" name="answer[25]" value="nosesuai">
+                                        Tidak sesuai
+                                        <input type="radio" name="answer[25]" value="tdkada">
+                                        Tidak ada
+
                                     </div>
 
                                 </div>
@@ -756,13 +646,12 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Sesuai</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak sesuai</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[26]" value="sesuai">
+                                        sesuai
+                                        <input type="radio" name="answer[26]" value="nosesuai">
+                                        Tidak sesuai
+
                                     </div>
 
 
@@ -778,17 +667,14 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada dan laik</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak laik</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[27]" value="adalaik">
+                                        Ada dan laik
+                                        <input type="radio" name="answer[27]" value="nolaik">
+                                        Tidak laik
+                                        <input type="radio" name="answer[27]" value="tdkada">
+                                        Tidak ada
+
                                     </div>
 
                                 </div>
@@ -800,13 +686,12 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[28]" value="ada">
+                                        Ada
+                                        <input type="radio" name="answer[28]" value="tdkada">
+                                        Tidak ada
+
                                     </div>
 
 
@@ -819,13 +704,12 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[29]" value="ada">
+                                        Ada
+                                        <input type="radio" name="answer[29]" value="tdkada">
+                                        Tidak ada
+
                                     </div>
 
 
@@ -838,15 +722,13 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
-                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[30]" value="ada">
+                                        Ada
+                                        <input type="radio" name="answer[30]" value="tdkada">
+                                        Tidak ada
 
+                                    </div>
 
                                 </div>
                             </div>
@@ -857,18 +739,14 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak berfungsi</label>
-                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[31]" value="ada">
+                                        Ada
+                                        <input type="radio" name="answer[31]" value="tdkfungsi">
+                                        Tidak berfungsi
+                                        <input type="radio" name="answer[31]" value="tdkada">
+                                        Tidak ada
 
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
                                     </div>
 
 
@@ -883,14 +761,12 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada dan laik</label>
-                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[32]" value="adalaik">
+                                        Ada dan laik
+                                        <input type="radio" name="answer[32]" value="tdklaik">
+                                        Tidak laik
 
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
                                     </div>
 
                                 </div>
@@ -902,13 +778,12 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[33]" value="ada">
+                                        Ada
+                                        <input type="radio" name="answer[33]" value="tdkada">
+                                        Tidak ada
+
                                     </div>
 
 
@@ -921,13 +796,12 @@
                             <div class="row ml-3">
 
                                 <div class="col-sm-10">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                        <label class="form-check-label" for="inlineCheckbox1">Ada</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                        <label class="form-check-label" for="inlineCheckbox2">Tidak ada</label>
+                                    <div class="form-group">
+                                        <input type="radio" name="answer[34]" value="ada">
+                                        Ada
+                                        <input type="radio" name="answer[34]" value="tdkada">
+                                        Tidak ada
+
                                     </div>
 
 
@@ -954,6 +828,8 @@
     <!-- ============================================================== -->
     <!-- End Container fluid  -->
     <!-- ============================================================== -->
+    <!-- ============================================================== -->
+
     <!-- ============================================================== -->
     <!-- footer -->
     <!-- ============================================================== -->
