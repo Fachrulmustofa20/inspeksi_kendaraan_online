@@ -50,7 +50,7 @@ function copy() {
     gulp.src(npmDist(), {
             base: './node_modules'
         })
-        .pipe(gulp.dest('./assets/libs'));
+        .pipe(gulp.dest('./vendor/libs'));
 };
 
 function watch() {
