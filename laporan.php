@@ -16,9 +16,6 @@
     <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
     <link href="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
 
-    <!--Date Picker-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
-
     <!-- Custom CSS -->
     <link href="dist/css/style.min.css" rel="stylesheet">
     <link href="assets/extra-libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
@@ -72,12 +69,12 @@
             <div class="page-breadcrumb">
                 <div class="row">
                     <div class="col-7 align-self-center">
-                        <h3 class="page-title text-truncate text-dark font-weight-medium mb-1">Report</h3>
+                        <h3 class="page-title text-truncate text-dark font-weight-medium mb-1">Laporan</h3>
                         <div class="d-flex align-items-center">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb m-0 p-0">
                                     <li class="breadcrumb-item"><a href="index.php" class="text-muted">Menu</a></li>
-                                    <li class="breadcrumb-item text-muted active" aria-current="page">Report</li>
+                                    <li class="breadcrumb-item text-muted active" aria-current="page">Laporan</li>
                                 </ol>
                             </nav>
                         </div>
@@ -92,19 +89,6 @@
             <!-- Container fluid  -->
             <!-- ============================================================== -->
             <div class="container-fluid">
-                <!-- Date Picker -->
-                <div class="row">
-                    <div class="col-lg-5 col-sm-7 col-xs-12 col-12">
-                        <div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
-                            <i class="fa fa-calendar"></i>&nbsp;
-                            <span></span> <i class="fa fa-caret-down"></i>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <a href="" class="btn btn-danger btn-sm float-right"><i class="fas fa-print fa-sm mr-2"></i>Cetak Laporan</a>
-                    </div>
-                </div>
-                <!-- End Date Picker -->
 
                 <!-- multi-column ordering -->
                 <div class="row">
@@ -119,35 +103,57 @@
                                 <div class="table-responsive">
                                     <table id="multi_col_order" class="table table-striped table-bordered display no-wrap" style="width:100%">
                                         <thead class="bg-primary text-white">
-                                            <tr>
+                                            <tr class="text-center">
                                                 <th>No</th>
                                                 <th>Hari/Tanggal</th>
-                                                <th>Lokasi</th>
-                                                <th>Nama Lokasi</th>
                                                 <th>Nama Pengemudi</th>
-                                                <th>Umur</th>
                                                 <th>Nama PO</th>
                                                 <th>Nomor Kendaraan</th>
                                                 <th>Nomor STUK</th>
-                                                <th>Jenis Trayek</th>
-                                                <th>Trayek</th>
                                                 <th>Aksi</th>
                                             </tr>
                                         </thead>
-                                        <tbody>
-
+                                        <tbody class="text-center">
                                             <tr>
                                                 <td>1</td>
                                                 <td>1/1/2020</td>
-                                                <td>Dampyak</td>
-                                                <td>Pom Bensi Muri</td>
                                                 <td>Dasmad</td>
-                                                <td>90 Tahun</td>
                                                 <td>Kasnud</td>
                                                 <td>G 1945 sm</td>
                                                 <td>12345</td>
-                                                <td>AKAP</td>
-                                                <td>AKAPB</td>
+                                                <td>
+                                                    <a href="detail.php" class="btn btn-success btn-sm"><i class="fas fa-info-circle fa-sm mr-2"></i>Detail</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>1/1/2020</td>
+                                                <td>Dasmad</td>
+                                                <td>Kasnud</td>
+                                                <td>G 1945 sm</td>
+                                                <td>12345</td>
+                                                <td>
+                                                    <a href="detail.php" class="btn btn-success btn-sm"><i class="fas fa-info-circle fa-sm mr-2"></i>Detail</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>1/1/2020</td>
+                                                <td>Dasmad</td>
+                                                <td>Kasnud</td>
+                                                <td>G 1945 sm</td>
+                                                <td>12345</td>
+                                                <td>
+                                                    <a href="detail.php" class="btn btn-success btn-sm"><i class="fas fa-info-circle fa-sm mr-2"></i>Detail</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>1/1/2020</td>
+                                                <td>Dasmad</td>
+                                                <td>Kasnud</td>
+                                                <td>G 1945 sm</td>
+                                                <td>12345</td>
                                                 <td>
                                                     <a href="detail.php" class="btn btn-success btn-sm"><i class="fas fa-info-circle fa-sm mr-2"></i>Detail</a>
                                                 </td>
