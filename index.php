@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav.png">
     <title>Cek Uji Kendaraan</title>
     <!-- Custom CSS -->
     <link href="assets/extra-libs/c3/c3.min.css" rel="stylesheet">
@@ -43,13 +43,12 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-theme="dark" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
-        data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
+    <div id="main-wrapper" data-theme="dark" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
         <?php
-            include "top_bar.php";
+        include "top_bar.php";
         ?>
         <!-- ============================================================== -->
         <!-- End Topbar header -->
@@ -58,7 +57,7 @@
         <!-- Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
         <?php
-            include "side_bar.php";
+        include "side_bar.php";
         ?>
         <!-- ============================================================== -->
         <!-- End Left Sidebar - style you can find in sidebar.scss  -->
@@ -83,7 +82,7 @@
                             </nav>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <!-- ============================================================== -->
@@ -103,9 +102,9 @@
                                 <div>
                                     <div class="d-inline-flex align-items-center">
                                         <h2 class="text-dark mb-1 font-weight-medium">236</h2>
-                                        
+
                                     </div>
-                                    <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Kendaraan Yang Laik Jalan</h6>
+                                    <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Kendaraan Yg Laik Jln</h6>
                                 </div>
                                 <div class="ml-auto mt-md-3 mt-lg-0">
                                     <span class="opacity-7 text-muted"><i data-feather="grid"></i></span>
@@ -119,9 +118,9 @@
                                 <div>
                                     <div class="d-inline-flex align-items-center">
                                         <h2 class="text-dark mb-1 font-weight-medium">100</h2>
-                                        
+
                                     </div>
-                                    <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Kendaraan Yang Tidak Laik Jalan</h6>
+                                    <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Kendaraan Yg Tdk Laik Jln</h6>
                                 </div>
                                 <div class="ml-auto mt-md-3 mt-lg-0">
                                     <span class="opacity-7 text-muted"><i data-feather="briefcase"></i></span>
@@ -135,7 +134,7 @@
                                 <div>
                                     <div class="d-inline-flex align-items-center">
                                         <h2 class="text-primary mb-1 font-weight-medium">336</h2>
-                                        
+
                                     </div>
                                     <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Total Kendaraan</h6>
                                 </div>
@@ -151,7 +150,7 @@
                                 <div>
                                     <div class="d-inline-flex align-items-center">
                                         <h2 class="text-primary mb-1 font-weight-medium">336</h2>
-                                        
+
                                     </div>
                                     <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Total Admin</h6>
                                 </div>
@@ -161,7 +160,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <!-- *************************************************************** -->
                 <!-- Eend First Cards -->
@@ -169,7 +168,7 @@
                 <!-- *************************************************************** -->
                 <!-- Start Sales Charts Section -->
                 <!-- *************************************************************** -->
-                    <!-- Start Sales Charts Section -->
+                <!-- Start Sales Charts Section -->
                 <!-- *************************************************************** -->
                 <div class="row">
                     <div class="col-lg-5 col-md-12">
@@ -235,16 +234,16 @@
                 </div>
                 <!-- *************************************************************** -->
                 <!-- End Sales Charts Section -->
-                
+
                 <!-- *************************************************************** -->
                 <!-- End Sales Charts Section -->
                 <!-- *************************************************************** -->
 
 
-                 <!-- ============================================================== -->
+                <!-- ============================================================== -->
                 <!-- End PAge Content -->
                 <!-- ============================================================== -->
-                
+
             </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
@@ -252,7 +251,7 @@
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            
+
             <!-- ============================================================== -->
             <!-- End footer -->
             <!-- ============================================================== -->
@@ -277,7 +276,7 @@
     <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
     <script src="dist/js/sidebarmenu.js"></script>
     <script src="assets/extra-libs/sparkline/sparkline.js"></script>
-    
+
     <!--Custom JavaScript -->
     <script src="dist/js/custom.min.js"></script>
     <!--This page JavaScript -->
@@ -291,7 +290,7 @@
     <!--This page plugins -->
     <script src="assets/extra-libs/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="dist/js/pages/datatable/datatable-basic.init.js"></script>
-    
+
     <!-- Chart JS -->
     <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="dist/js/doughnut.js"></script>

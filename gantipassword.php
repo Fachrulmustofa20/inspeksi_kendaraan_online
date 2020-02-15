@@ -72,12 +72,12 @@
             <div class="page-breadcrumb">
                 <div class="row">
                     <div class="col-7 align-self-center">
-                        <h3 class="page-title text-truncate text-dark font-weight-medium mb-1">My Profile</h3>
+                        <h3 class="page-title text-truncate text-dark font-weight-medium mb-1">Edit Password</h3>
                         <div class="d-flex align-items-center">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb m-0 p-0">
-                                    <li class="breadcrumb-item"><a href="index.php" class="text-muted">Menu</a></li>
-                                    <li class="breadcrumb-item text-muted active" aria-current="page">My Profile</li>
+                                    <li class="breadcrumb-item"><a href="index.php" class="text-muted">My Profile</a></li>
+                                    <li class="breadcrumb-item text-muted active" aria-current="page">Edit Password</li>
                                 </ol>
                             </nav>
                         </div>
@@ -92,77 +92,37 @@
             <!-- Container fluid  -->
             <!-- ============================================================== -->
             <div class="container-fluid">
-
-
-                <!-- Start Page Content -->
-                <!-- ============================================================== -->
-                <!-- Row -->
-                <div class="row">
-                    <!-- Column -->
-                    <div class="col-lg-4 col-xlg-3 col-md-5">
-                        <div class="card">
-                            <div class="card-body">
-                                <center class="m-t-30"> <img src="assets/images/users/default.png" alt="image" class="rounded-circle" width="150">
-                                    <h4 class="card-title mt-3">Fachrul Mustofa</h4>
-                                    <h5 class="card-subtitle">Admin</h5>
-                                    <div class="row text-center justify-content-md-center">
-                                        <div class="col-12">Create Account :</div>
-                                    </div>
-                                    <div class="row text-center justify-content-md-center">
-                                        <div class="col-12">3/2/2020</div>
-                                    </div>
-                                </center>
+                <div class="card col-md-6 mx-auto">
+                    <!-- Tab panes -->
+                    <div class="card-body">
+                        <form action="" method="POST">
+                            <div class="form-group">
+                                <label for="example-email" class="col-md-12">Password Lama</label>
+                                <div class="col-md-12">
+                                    <input type="password" name="current_password" id="current_password" class="form-control form-control-line">
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <!-- Column -->
-                    <!-- Column -->
-                    <div class="col-lg-8 col-xlg-9 col-md-7">
-                        <div class="card">
-                            <!-- Tab panes -->
-                            <div class="card-body">
-                                <form class="form-horizontal form-material">
-                                    <div class="form-group">
-                                        <label for="example-email" class="col-md-12">Email</label>
-                                        <div class="col-md-12">
-                                            <input type="email" class="form-control form-control-line" value="fachrulmustofa@gmail.com" required>
-                                        </div>
-                                    </div>
 
-                                    <div class="form-group">
-                                        <label class="col-md-12">Full Name</label>
-                                        <div class="col-md-12">
-                                            <input type="text" class="form-control form-control-line" value="Fachrul Mustofa" required>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="input-group mb-2 p-3">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">Upload</span>
-                                        </div>
-                                        <div class="custom-file">
-                                            <input type="file" class="custom-file-input" id="inputGroupFile01">
-                                            <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <div class="col-sm-12">
-                                            <button class="btn btn-primary">Update Profile</button>
-                                        </div>
-                                    </div>
-                                </form>
+                            <div class="form-group">
+                                <label class="col-md-12">Password Baru</label>
+                                <div class="col-md-12">
+                                    <input type="password" class="form-control form-control-line" id="new_password1" name="new_password1">
+                                </div>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label class="col-md-12">Konfirmasi Password</label>
+                                <div class="col-md-12">
+                                    <input type="password" class="form-control form-control-line" name="new_password2">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary">Change Password</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <!-- Column -->
                 </div>
-                <!-- Row -->
-                <!-- ============================================================== -->
-                <!-- End PAge Content -->
-                <!-- ============================================================== -->
-
             </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
