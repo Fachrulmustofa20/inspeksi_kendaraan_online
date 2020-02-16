@@ -150,11 +150,7 @@
                             <fieldset class="form-group">
                                 <div class="row">
                                     <legend class="col-form-label col-sm-2 pt-0">Nomor Kendaraan</legend>
-                                    <div class="col-sm-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
+
                                     <div class="col-sm-7 mt-2">
                                         <div class="form-group">
                                             <input type="radio" name="answer[2]" value="Reguler">
