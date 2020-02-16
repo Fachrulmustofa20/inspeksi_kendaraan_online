@@ -640,6 +640,56 @@
 
                                     </div>
                                 </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-md">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="table-responsive">
+
+                                                    <table class="table table-bordered">
+                                                        <thead class="text-center">
+
+                                                            <tr>
+                                                                <th width="250px">Catatan</th>
+                                                                <th width=" 250px">PENGEMUDI</th>
+                                                                <th width="250px">PENGUJI KENDARAAN BERMOTOR </th>
+                                                                <th width="250px">PENYIDIK PEGAWAI NEGERI SIPIL </th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+
+
+                                                            <tr>
+                                                                <td>
+                                                                    <i>
+                                                                        Jika setiap unsur terdapat pelanggaran,
+                                                                        maka sanksi yang dikenakkan adalah sanki yang paling berat.
+                                                                    </i>
+                                                                </td>
+
+                                                                <td><br><br><br>Nama:
+
+                                                                </td>
+                                                                <td><br><br>Nama:
+                                                                    <br>
+                                                                    Nip :
+                                                                </td>
+                                                                <td><br><br>Nama:
+                                                                    <br>
+                                                                    Nip :
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -670,6 +720,8 @@
                         </div>
 
                     </div>
+
+
                 </div>
 
                 <!-- End Content --->

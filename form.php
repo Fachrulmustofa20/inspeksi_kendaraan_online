@@ -93,12 +93,12 @@
             <!-- ============================================================== -->
             <div class="container-fluid">
                 <!--Data pemeriksaan-->
-                <div class="card">
-                    <div class="card-header bg-primary text-white text-center">
-                        DATA PEMERIKSAAN
-                    </div>
-                    <div class="card-body">
-                        <form>
+                <form>
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-center">
+                            DATA PEMERIKSAAN
+                        </div>
+                        <div class="card-body">
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Hari/Tanggal</label>
                                 <div class="col-sm-10">
@@ -194,21 +194,17 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row">
-                                <div class="col-sm-10">
-                                    <button type="submit" class="btn btn-primary">Simpan</button>
-                                </div>
-                            </div>
-                        </form>
+
+
+                        </div>
                     </div>
-                </div>
-                <!--Unsur administrasi-->
-                <div class="card">
-                    <div class="card-header bg-primary text-white text-center">
-                        UNSUR ADMINISTRASI
-                    </div>
-                    <div class="card-body">
-                        <form>
+                    <!--Unsur administrasi-->
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-center">
+                            UNSUR ADMINISTRASI
+                        </div>
+                        <div class="card-body">
+
 
                             <fieldset class="form-group">
                                 <div class="row">
@@ -279,549 +275,533 @@
                                     </div>
                                 </div>
                             </fieldset>
-                            <div class="form-group row">
-                                <div class="col-sm-10">
-                                    <button type="submit" class="btn btn-primary">Simpan</button>
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-                <!--UNSUR TEKNISI UTAMA-->
-                <div class="card">
-                    <div class="card-header bg-primary text-white text-center">
-                        UNSUR TEKNISI UTAMA
-                    </div>
-                    <div class="card-body">
-                        <h4><b>A. SISTEM PEMERANGAN</b></h4>
-                        <label class="ml-3">1. Lampu Utama Kendaraan</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-                                <legend class="col-form-label col-sm-2 pt-0">Dekat</legend>
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[8]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[8]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[8]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[8]" value="kiri">
-                                        Kiri
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row ml-3">
-                                <legend class="col-form-label col-sm-2 pt-0">Jauh</legend>
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[9]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[9]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[9]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[9]" value="kiri">
-                                        Kiri
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
-                        <label class="ml-3">2. Lampu Penunjuk Arah</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-                                <legend class="col-form-label col-sm-2 pt-0">Depan</legend>
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[10]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[10]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[10]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[10]" value="kiri">
-                                        Kiri
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row ml-3">
-                                <legend class="col-form-label col-sm-2 pt-0">Belakang</legend>
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[11]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[11]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[11]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[11]" value="kiri">
-                                        Kiri
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
-                        <label class="ml-3">3. Lampu Rem</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[12]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[12]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[12]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[12]" value="kiri">
-                                        Kiri
-                                    </div>
-                                </div>
-                            </div>
-
-                        </fieldset>
-                        <label class="ml-3">4. Lampu Mundur</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[13]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[13]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[13]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[13]" value="kiri">
-                                        Kiri
-                                    </div>
-                                </div>
-                            </div>
-
-                        </fieldset>
-                        <h4><b>B. SISTEM PENGEREMAN</b></h4>
-                        <label class="ml-3">5. Kondisi Rem Utama</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[14]" value="berfungsi">
-                                        berfungsi
-                                        <input type="radio" name="answer[14]" value="noberfungsi">
-                                        Tidak berfungsi
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </fieldset>
-                        <label class="ml-3">6. Kondisi Rem Parkir</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[15]" value="berfungsi">
-                                        berfungsi
-                                        <input type="radio" name="answer[15]" value="noberfungsi">
-                                        Tidak berfungsi
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </fieldset>
-
-                        <h4><b>C. BADAN KENDARAAN</b></h4>
-                        <label class="ml-3">7. Kondisi Kaca Depan</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[16]" value="baik">
-                                        Baik
-                                        <input type="radio" name="answer[16]" value="buruk">
-                                        Buruk
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </fieldset>
-                        <h4><b>D. BAN</b></h4>
-                        <label class="ml-3">8. Kondisi Ban </label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-                                <label class="ml-3">Depan</label>
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[17]" value="Semualaik">
-                                        Semua laik
-                                        <input type="radio" name="answer[17]" value="tdklaik">
-                                        Tidak laik
-                                        <input type="radio" name="answer[17]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[17]" value="kiri">
-                                        Kiri
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="row ml-3">
-                                <label class="ml-3">Belakang</label>
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[18]" value="Semualaik">
-                                        Semua laik
-                                        <input type="radio" name="answer[18]" value="tdklaik">
-                                        Tidak laik
-                                        <input type="radio" name="answer[18]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[18]" value="kiri">
-                                        Kiri
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </fieldset>
-
-                        <h4><b>E. PERLENGKAPAN</b></h4>
-                        <label class="ml-3">9. Sabuk Keselamatan Pengemudi</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[19]" value="adafungsi">
-                                        Ada dan berfungsi
-                                        <input type="radio" name="answer[19]" value="tidakadafungsi">
-                                        Tidak ada/tidak berfungsi
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </fieldset>
 
 
-                        <div class="form-group row">
-                            <div class="col-sm-10">
-                                <button type="submit" class="btn btn-primary">Simpan</button>
-                            </div>
+
                         </div>
                     </div>
-                </div>
-                <!--UNSUR TEKNISI UTAMA-->
-                <div class="card">
-                    <div class="card-header bg-primary text-white text-center">
-                        UNSUR TEKNIS PENUNJANG
-                    </div>
-                    <div class="card-body">
-                        <h4><b>A. PENGUKUR KECEPATAN</b></h4>
-                        <label class="ml-3">10. Pengkur kecepatan</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[20]" value="adafungsi">
-                                        Ada dan berfungsi
-                                        <input type="radio" name="answer[20]" value="tidakfungsi">
-                                        Tidak berfungsi
-                                        <input type="radio" name="answer[20]" value="tidakada">
-                                        Tidak ada
+                    <!--UNSUR TEKNISI UTAMA-->
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-center">
+                            UNSUR TEKNISI UTAMA
+                        </div>
+                        <div class="card-body">
+                            <h4><b>A. SISTEM PEMERANGAN</b></h4>
+                            <label class="ml-3">1. Lampu Utama Kendaraan</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+                                    <legend class="col-form-label col-sm-2 pt-0">Dekat</legend>
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[8]" value="nyala">
+                                            Semua menyala
+                                            <input type="radio" name="answer[8]" value="nonyala">
+                                            Tidak menyala
+                                            <input type="radio" name="answer[8]" value="kanan">
+                                            Kanan
+                                            <input type="radio" name="answer[8]" value="kiri">
+                                            Kiri
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row ml-3">
+                                    <legend class="col-form-label col-sm-2 pt-0">Jauh</legend>
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[9]" value="nyala">
+                                            Semua menyala
+                                            <input type="radio" name="answer[9]" value="nonyala">
+                                            Tidak menyala
+                                            <input type="radio" name="answer[9]" value="kanan">
+                                            Kanan
+                                            <input type="radio" name="answer[9]" value="kiri">
+                                            Kiri
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <label class="ml-3">2. Lampu Penunjuk Arah</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+                                    <legend class="col-form-label col-sm-2 pt-0">Depan</legend>
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[10]" value="nyala">
+                                            Semua menyala
+                                            <input type="radio" name="answer[10]" value="nonyala">
+                                            Tidak menyala
+                                            <input type="radio" name="answer[10]" value="kanan">
+                                            Kanan
+                                            <input type="radio" name="answer[10]" value="kiri">
+                                            Kiri
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row ml-3">
+                                    <legend class="col-form-label col-sm-2 pt-0">Belakang</legend>
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[11]" value="nyala">
+                                            Semua menyala
+                                            <input type="radio" name="answer[11]" value="nonyala">
+                                            Tidak menyala
+                                            <input type="radio" name="answer[11]" value="kanan">
+                                            Kanan
+                                            <input type="radio" name="answer[11]" value="kiri">
+                                            Kiri
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <label class="ml-3">3. Lampu Rem</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[12]" value="nyala">
+                                            Semua menyala
+                                            <input type="radio" name="answer[12]" value="nonyala">
+                                            Tidak menyala
+                                            <input type="radio" name="answer[12]" value="kanan">
+                                            Kanan
+                                            <input type="radio" name="answer[12]" value="kiri">
+                                            Kiri
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <label class="ml-3">4. Lampu Mundur</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[13]" value="nyala">
+                                            Semua menyala
+                                            <input type="radio" name="answer[13]" value="nonyala">
+                                            Tidak menyala
+                                            <input type="radio" name="answer[13]" value="kanan">
+                                            Kanan
+                                            <input type="radio" name="answer[13]" value="kiri">
+                                            Kiri
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <h4><b>B. SISTEM PENGEREMAN</b></h4>
+                            <label class="ml-3">5. Kondisi Rem Utama</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[14]" value="berfungsi">
+                                            berfungsi
+                                            <input type="radio" name="answer[14]" value="noberfungsi">
+                                            Tidak berfungsi
+
+                                        </div>
 
                                     </div>
-
                                 </div>
-                            </div>
 
-                        </fieldset>
-                        <h4><b>B. SISTEM PEMERANGAN</b></h4>
-                        <label class="ml-3">11. Lampu Posisi</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-                                <label class="ml-3">Depan</label>
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[21]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[21]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[21]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[21]" value="kiri">
-                                        Kiri
-                                    </div>
+                            </fieldset>
+                            <label class="ml-3">6. Kondisi Rem Parkir</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
 
-                                </div>
-                            </div>
-                            <div class="row ml-3">
-                                <label class="ml-3">Belakang</label>
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[22]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[22]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[22]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[22]" value="kiri">
-                                        Kiri
-                                    </div>
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[15]" value="berfungsi">
+                                            berfungsi
+                                            <input type="radio" name="answer[15]" value="noberfungsi">
+                                            Tidak berfungsi
 
-                                </div>
-                            </div>
-
-                        </fieldset>
-
-                        <h4><b>C. BADAN KENDARAAN</b></h4>
-                        <label class="ml-3">12. Kaca Spion</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[23]" value="adasesuai">
-                                        Ada dan sesuai
-                                        <input type="radio" name="answer[23]" value="nosesuai">
-                                        Tidak sesuai
-                                        <input type="radio" name="answer[23]" value="tdkada">
-                                        Tidak ada
+                                        </div>
 
                                     </div>
-
                                 </div>
-                            </div>
 
-                        </fieldset>
-                        <label class="ml-3">13. Penghapus Kaca</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
+                            </fieldset>
 
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[24]" value="adasesuai">
-                                        Ada dan sesuai
-                                        <input type="radio" name="answer[24]" value="nosesuai">
-                                        Tidak sesuai
-                                        <input type="radio" name="answer[24]" value="tdkada">
-                                        Tidak ada
+                            <h4><b>C. BADAN KENDARAAN</b></h4>
+                            <label class="ml-3">7. Kondisi Kaca Depan</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[16]" value="baik">
+                                            Baik
+                                            <input type="radio" name="answer[16]" value="buruk">
+                                            Buruk
+
+                                        </div>
 
                                     </div>
-
                                 </div>
-                            </div>
 
-                        </fieldset>
-                        <label class="ml-3">14. Klakson</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
+                            </fieldset>
+                            <h4><b>D. BAN</b></h4>
+                            <label class="ml-3">8. Kondisi Ban </label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+                                    <label class="ml-3">Depan</label>
 
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[25]" value="adasesuai">
-                                        Ada dan sesuai
-                                        <input type="radio" name="answer[25]" value="nosesuai">
-                                        Tidak sesuai
-                                        <input type="radio" name="answer[25]" value="tdkada">
-                                        Tidak ada
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[17]" value="Semualaik">
+                                            Semua laik
+                                            <input type="radio" name="answer[17]" value="tdklaik">
+                                            Tidak laik
+                                            <input type="radio" name="answer[17]" value="kanan">
+                                            Kanan
+                                            <input type="radio" name="answer[17]" value="kiri">
+                                            Kiri
+                                        </div>
 
                                     </div>
-
                                 </div>
-                            </div>
+                                <div class="row ml-3">
+                                    <label class="ml-3">Belakang</label>
 
-                        </fieldset>
-                        <h4><b>D. KAPASITAS TEMPAT DUDUK</b></h4>
-                        <label class="ml-3">15. Jln Tempat Duduk Penumpang </label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[26]" value="sesuai">
-                                        sesuai
-                                        <input type="radio" name="answer[26]" value="nosesuai">
-                                        Tidak sesuai
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[18]" value="Semualaik">
+                                            Semua laik
+                                            <input type="radio" name="answer[18]" value="tdklaik">
+                                            Tidak laik
+                                            <input type="radio" name="answer[18]" value="kanan">
+                                            Kanan
+                                            <input type="radio" name="answer[18]" value="kiri">
+                                            Kiri
+                                        </div>
 
                                     </div>
-
-
                                 </div>
-                            </div>
 
+                            </fieldset>
 
-                        </fieldset>
+                            <h4><b>E. PERLENGKAPAN</b></h4>
+                            <label class="ml-3">9. Sabuk Keselamatan Pengemudi</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
 
-                        <h4><b>E. PERLENGKAPAN KENDARAAN</b></h4>
-                        <label class="ml-3">16. Ban Cadangan</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[19]" value="adafungsi">
+                                            Ada dan berfungsi
+                                            <input type="radio" name="answer[19]" value="tidakadafungsi">
+                                            Tidak ada/tidak berfungsi
 
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[27]" value="adalaik">
-                                        Ada dan laik
-                                        <input type="radio" name="answer[27]" value="nolaik">
-                                        Tidak laik
-                                        <input type="radio" name="answer[27]" value="tdkada">
-                                        Tidak ada
+                                        </div>
 
                                     </div>
-
                                 </div>
-                            </div>
 
-                        </fieldset>
-                        <label class="ml-3">17. Segitiga Pengaman</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[28]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[28]" value="tdkada">
-                                        Tidak ada
-
-                                    </div>
-
-
-                                </div>
-                            </div>
-
-                        </fieldset>
-                        <label class="ml-3">18. Dongkrak</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[29]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[29]" value="tdkada">
-                                        Tidak ada
-
-                                    </div>
-
-
-                                </div>
-                            </div>
-
-                        </fieldset>
-                        <label class="ml-3">19. Pembuka Roda</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[30]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[30]" value="tdkada">
-                                        Tidak ada
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </fieldset>
-                        <label class="ml-3">20. Lampu Senter</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[31]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[31]" value="tdkfungsi">
-                                        Tidak berfungsi
-                                        <input type="radio" name="answer[31]" value="tdkada">
-                                        Tidak ada
-
-                                    </div>
-
-
-                                </div>
-                            </div>
-
-                            <!---->
-                        </fieldset>
-                        <h4><b>F. TANGGAP DARURAT</b></h4>
-                        <label class="ml-3">21. Pintu Darurat</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[32]" value="adalaik">
-                                        Ada dan laik
-                                        <input type="radio" name="answer[32]" value="tdklaik">
-                                        Tidak laik
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </fieldset>
-                        <label class="ml-3">22. Jendela Darurat</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[33]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[33]" value="tdkada">
-                                        Tidak ada
-
-                                    </div>
-
-
-                                </div>
-                            </div>
-
-                        </fieldset>
-                        <label class="ml-3">23. Alat Pemukul/Pemecah Kaca</label>
-                        <fieldset class="form-group">
-                            <div class="row ml-3">
-
-                                <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <input type="radio" name="answer[34]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[34]" value="tdkada">
-                                        Tidak ada
-
-                                    </div>
-
-
-                                </div>
-                            </div>
-
-                        </fieldset>
+                            </fieldset>
 
 
 
-                        <div class="form-group row">
-                            <div class="col-sm-10">
-                                <button type="submit" class="btn btn-primary">Simpan</button>
-                            </div>
                         </div>
                     </div>
-                </div>
+                    <!--UNSUR TEKNISI UTAMA-->
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-center">
+                            UNSUR TEKNIS PENUNJANG
+                        </div>
+                        <div class="card-body">
+                            <h4><b>A. PENGUKUR KECEPATAN</b></h4>
+                            <label class="ml-3">10. Pengkur kecepatan</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[20]" value="adafungsi">
+                                            Ada dan berfungsi
+                                            <input type="radio" name="answer[20]" value="tidakfungsi">
+                                            Tidak berfungsi
+                                            <input type="radio" name="answer[20]" value="tidakada">
+                                            Tidak ada
 
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <h4><b>B. SISTEM PEMERANGAN</b></h4>
+                            <label class="ml-3">11. Lampu Posisi</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+                                    <label class="ml-3">Depan</label>
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[21]" value="nyala">
+                                            Semua menyala
+                                            <input type="radio" name="answer[21]" value="nonyala">
+                                            Tidak menyala
+                                            <input type="radio" name="answer[21]" value="kanan">
+                                            Kanan
+                                            <input type="radio" name="answer[21]" value="kiri">
+                                            Kiri
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row ml-3">
+                                    <label class="ml-3">Belakang</label>
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[22]" value="nyala">
+                                            Semua menyala
+                                            <input type="radio" name="answer[22]" value="nonyala">
+                                            Tidak menyala
+                                            <input type="radio" name="answer[22]" value="kanan">
+                                            Kanan
+                                            <input type="radio" name="answer[22]" value="kiri">
+                                            Kiri
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+
+                            <h4><b>C. BADAN KENDARAAN</b></h4>
+                            <label class="ml-3">12. Kaca Spion</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[23]" value="adasesuai">
+                                            Ada dan sesuai
+                                            <input type="radio" name="answer[23]" value="nosesuai">
+                                            Tidak sesuai
+                                            <input type="radio" name="answer[23]" value="tdkada">
+                                            Tidak ada
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <label class="ml-3">13. Penghapus Kaca</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[24]" value="adasesuai">
+                                            Ada dan sesuai
+                                            <input type="radio" name="answer[24]" value="nosesuai">
+                                            Tidak sesuai
+                                            <input type="radio" name="answer[24]" value="tdkada">
+                                            Tidak ada
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <label class="ml-3">14. Klakson</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[25]" value="adasesuai">
+                                            Ada dan sesuai
+                                            <input type="radio" name="answer[25]" value="nosesuai">
+                                            Tidak sesuai
+                                            <input type="radio" name="answer[25]" value="tdkada">
+                                            Tidak ada
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <h4><b>D. KAPASITAS TEMPAT DUDUK</b></h4>
+                            <label class="ml-3">15. Jln Tempat Duduk Penumpang </label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[26]" value="sesuai">
+                                            sesuai
+                                            <input type="radio" name="answer[26]" value="nosesuai">
+                                            Tidak sesuai
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </fieldset>
+
+                            <h4><b>E. PERLENGKAPAN KENDARAAN</b></h4>
+                            <label class="ml-3">16. Ban Cadangan</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[27]" value="adalaik">
+                                            Ada dan laik
+                                            <input type="radio" name="answer[27]" value="nolaik">
+                                            Tidak laik
+                                            <input type="radio" name="answer[27]" value="tdkada">
+                                            Tidak ada
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <label class="ml-3">17. Segitiga Pengaman</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[28]" value="ada">
+                                            Ada
+                                            <input type="radio" name="answer[28]" value="tdkada">
+                                            Tidak ada
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <label class="ml-3">18. Dongkrak</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[29]" value="ada">
+                                            Ada
+                                            <input type="radio" name="answer[29]" value="tdkada">
+                                            Tidak ada
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <label class="ml-3">19. Pembuka Roda</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[30]" value="ada">
+                                            Ada
+                                            <input type="radio" name="answer[30]" value="tdkada">
+                                            Tidak ada
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <label class="ml-3">20. Lampu Senter</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[31]" value="ada">
+                                            Ada
+                                            <input type="radio" name="answer[31]" value="tdkfungsi">
+                                            Tidak berfungsi
+                                            <input type="radio" name="answer[31]" value="tdkada">
+                                            Tidak ada
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <!---->
+                            </fieldset>
+                            <h4><b>F. TANGGAP DARURAT</b></h4>
+                            <label class="ml-3">21. Pintu Darurat</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[32]" value="adalaik">
+                                            Ada dan laik
+                                            <input type="radio" name="answer[32]" value="tdklaik">
+                                            Tidak laik
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <label class="ml-3">22. Jendela Darurat</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[33]" value="ada">
+                                            Ada
+                                            <input type="radio" name="answer[33]" value="tdkada">
+                                            Tidak ada
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                            <label class="ml-3">23. Alat Pemukul/Pemecah Kaca</label>
+                            <fieldset class="form-group">
+                                <div class="row ml-3">
+
+                                    <div class="col-sm-10">
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[34]" value="ada">
+                                            Ada
+                                            <input type="radio" name="answer[34]" value="tdkada">
+                                            Tidak ada
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Simpan</button>
+                    </div>
                 </form>
-
             </div>
         </div>
     </div>
