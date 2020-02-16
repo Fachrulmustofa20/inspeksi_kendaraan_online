@@ -9,19 +9,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="vendor/images/favicon.png">
     <title>Cek Uji Kendaraan</title>
     <!-- Custom CSS -->
-    <link href="assets/extra-libs/c3/c3.min.css" rel="stylesheet">
-    <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
-    <link href="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    <link href="vendor/extra-libs/c3/c3.min.css" rel="stylesheet">
+    <link href="vendor/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="vendor/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
 
     <!--Date Picker-->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 
     <!-- Custom CSS -->
     <link href="dist/css/style.min.css" rel="stylesheet">
-    <link href="assets/extra-libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="vendor/extra-libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -43,13 +43,12 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-theme="dark" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
-        data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
+    <div id="main-wrapper" data-theme="dark" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
         <?php
-            include "top_bar.php";
+        include "top_bar.php";
         ?>
         <!-- ============================================================== -->
         <!-- End Topbar header -->
@@ -58,7 +57,7 @@
         <!-- Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
         <?php
-            include "side_bar.php";
+        include "side_bar.php";
         ?>
         <!-- ============================================================== -->
         <!-- End Left Sidebar - style you can find in sidebar.scss  -->
@@ -83,7 +82,7 @@
                             </nav>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <!-- ============================================================== -->
@@ -104,8 +103,7 @@
                                     <h4 class="card-title">Users</h4>
                                     <div class="ml-auto">
                                         <!-- Signup modal content -->
-                                        <div id="signup-modal" class="modal fade" tabindex="-1" role="dialog"
-                                            aria-hidden="true">
+                                        <div id="signup-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
                                             <div class="modal-dialog">
                                                 <div class="modal-content">
                                                     <div class="modal-body">
@@ -115,28 +113,24 @@
                                                         <form class="pl-3 pr-3" action="#">
                                                             <div class="form-group">
                                                                 <label for="name">Full Name</label>
-                                                                <input class="form-control" type="text" id="name"
-                                                                    required="" placeholder="Input Fullname">
+                                                                <input class="form-control" type="text" id="name" required="" placeholder="Input Fullname">
                                                             </div>
 
                                                             <div class="form-group">
                                                                 <label for="emailaddress">Email address</label>
-                                                                <input class="form-control" type="email" id="emailaddress"
-                                                                    required="" placeholder="Input your Email Address">
+                                                                <input class="form-control" type="email" id="emailaddress" required="" placeholder="Input your Email Address">
                                                             </div>
 
                                                             <div class="form-group">
                                                                 <label for="password">Password</label>
-                                                                <input class="form-control" type="password" required=""
-                                                                    id="password" placeholder="Enter your password">
+                                                                <input class="form-control" type="password" required="" id="password" placeholder="Enter your password">
                                                             </div>
 
                                                             <div class="form-group">
                                                                 <label for="phone">Phone Number</label>
-                                                                <input class="form-control" type="text" id="phone" required=""
-                                                                 placeholder="Input your Phone Number">
+                                                                <input class="form-control" type="text" id="phone" required="" placeholder="Input your Phone Number">
                                                             </div>
-                                                            
+
                                                             <div class="form-group text-center">
                                                                 <button class="btn btn-primary" type="submit">Submit
                                                                 </button>
@@ -147,12 +141,10 @@
                                             </div><!-- /.modal-dialog -->
                                         </div><!-- /.modal -->
 
-                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
-                                        data-target="#signup-modal"><i data-feather="user-plus" class="feather-icon"></i> Add Users</button>
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#signup-modal"><i data-feather="user-plus" class="feather-icon"></i> Add Users</button>
 
-                                         <!-- update modal content -->
-                                         <div id="update-modal" class="modal fade" tabindex="-1" role="dialog"
-                                            aria-hidden="true">
+                                        <!-- update modal content -->
+                                        <div id="update-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
                                             <div class="modal-dialog">
                                                 <div class="modal-content">
                                                     <div class="modal-body">
@@ -162,28 +154,24 @@
                                                         <form class="pl-3 pr-3" action="#">
                                                             <div class="form-group">
                                                                 <label for="name">Full Name</label>
-                                                                <input class="form-control" type="text" id="name"
-                                                                    required="" placeholder="Input Fullname">
+                                                                <input class="form-control" type="text" id="name" required="" placeholder="Input Fullname">
                                                             </div>
 
                                                             <div class="form-group">
                                                                 <label for="emailaddress">Email address</label>
-                                                                <input class="form-control" type="email" id="emailaddress"
-                                                                    required="" placeholder="Input your Email Address">
+                                                                <input class="form-control" type="email" id="emailaddress" required="" placeholder="Input your Email Address">
                                                             </div>
 
                                                             <div class="form-group">
                                                                 <label for="password">Password</label>
-                                                                <input class="form-control" type="password" required=""
-                                                                    id="password" placeholder="Enter your password">
+                                                                <input class="form-control" type="password" required="" id="password" placeholder="Enter your password">
                                                             </div>
 
                                                             <div class="form-group">
                                                                 <label for="phone">Phone Number</label>
-                                                                <input class="form-control" type="text" id="phone" required=""
-                                                                 placeholder="Input your Phone Number">
+                                                                <input class="form-control" type="text" id="phone" required="" placeholder="Input your Phone Number">
                                                             </div>
-                                                            
+
                                                             <div class="form-group text-center">
                                                                 <button class="btn btn-primary" type="submit">Submit
                                                                 </button>
@@ -215,14 +203,12 @@
                                                 <td class="border-top-0">
                                                     <div class="d-flex no-block align-items-center">
                                                         <div class="mr-3">
-                                                            <img src="assets/images/users/widget-table-pic3.jpg"
-                                                                alt="user" class="rounded-circle" width="45"
-                                                                height="45" />
+                                                            <img src="vendor/images/users/widget-table-pic3.jpg" alt="user" class="rounded-circle" width="45" height="45" />
                                                         </div>
                                                         <div class="">
-                                                                <h5 class="text-dark mb-0 font-16 font-weight-medium">Fachrul
-                                                                    Mustofa</h5>
-                                                                <span class="text-muted font-14">Fachrulmustofa@gmail.com</span>
+                                                            <h5 class="text-dark mb-0 font-16 font-weight-medium">Fachrul
+                                                                Mustofa</h5>
+                                                            <span class="text-muted font-14">Fachrulmustofa@gmail.com</span>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -231,7 +217,7 @@
                                                     0895435345
                                                 </td>
                                                 <td class="border-top-0 text-center">
-                                                    <a href="update_user.php" class="btn btn-warning btn-sm text-white" ><i data-feather="edit" class="feather-icon"></i> Update</a>
+                                                    <a href="update_user.php" class="btn btn-warning btn-sm text-white"><i data-feather="edit" class="feather-icon"></i> Update</a>
                                                     <a href="delete_user.php" class="btn btn-danger btn-sm"><i data-feather="trash-2" class="feather-icon"></i> Delete</a>
                                                 </td>
                                             </tr>
@@ -239,14 +225,12 @@
                                                 <td class="border-top-0">
                                                     <div class="d-flex no-block align-items-center">
                                                         <div class="mr-3">
-                                                            <img src="assets/images/users/widget-table-pic2.jpg"
-                                                                alt="user" class="rounded-circle" width="45"
-                                                                height="45" />
+                                                            <img src="vendor/images/users/widget-table-pic2.jpg" alt="user" class="rounded-circle" width="45" height="45" />
                                                         </div>
                                                         <div class="">
-                                                                <h5 class="text-dark mb-0 font-16 font-weight-medium">Endris
-                                                                    Ardiansyah</h5>
-                                                                <span class="text-muted font-14">Endrisardians@gmail.com</span>
+                                                            <h5 class="text-dark mb-0 font-16 font-weight-medium">Endris
+                                                                Ardiansyah</h5>
+                                                            <span class="text-muted font-14">Endrisardians@gmail.com</span>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -263,14 +247,12 @@
                                                 <td class="border-top-0">
                                                     <div class="d-flex no-block align-items-center">
                                                         <div class="mr-3">
-                                                            <img src="assets/images/users/widget-table-pic1.jpg"
-                                                                alt="user" class="rounded-circle" width="45"
-                                                                height="45" />
+                                                            <img src="vendor/images/users/widget-table-pic1.jpg" alt="user" class="rounded-circle" width="45" height="45" />
                                                         </div>
                                                         <div class="">
-                                                                <h5 class="text-dark mb-0 font-16 font-weight-medium">Bambang
-                                                                    Sugiarto</h5>
-                                                                <span class="text-muted font-14">Bambang@gmail.com</span>
+                                                            <h5 class="text-dark mb-0 font-16 font-weight-medium">Bambang
+                                                                Sugiarto</h5>
+                                                            <span class="text-muted font-14">Bambang@gmail.com</span>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -283,7 +265,7 @@
                                                     <a href="delete_user.php" class="btn btn-danger btn-sm"><i data-feather="trash-2" class="feather-icon"></i> Delete</a>
                                                 </td>
                                             </tr>
-                                            
+
                                         </tbody>
                                     </table>
                                 </div>
@@ -294,7 +276,7 @@
                 <!-- *************************************************************** -->
                 <!-- End Top Leader Table -->
                 <!-- *************************************************************** -->
-                
+
             </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
@@ -302,7 +284,7 @@
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            
+
             <!-- ============================================================== -->
             <!-- End footer -->
             <!-- ============================================================== -->
@@ -318,40 +300,40 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/libs/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="vendor/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- apps -->
     <!-- apps -->
     <script src="dist/js/app-style-switcher.js"></script>
     <script src="dist/js/feather.min.js"></script>
-    <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="vendor/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
     <script src="dist/js/sidebarmenu.js"></script>
-    <script src="assets/extra-libs/sparkline/sparkline.js"></script>
-    
+    <script src="vendor/extra-libs/sparkline/sparkline.js"></script>
+
     <!--Custom JavaScript -->
     <script src="dist/js/custom.min.js"></script>
     <!--This page JavaScript -->
-    <script src="assets/extra-libs/c3/d3.min.js"></script>
-    <script src="assets/extra-libs/c3/c3.min.js"></script>
-    <script src="assets/libs/chartist/dist/chartist.min.js"></script>
-    <script src="assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
-    <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="vendor/extra-libs/c3/d3.min.js"></script>
+    <script src="vendor/extra-libs/c3/c3.min.js"></script>
+    <script src="vendor/libs/chartist/dist/chartist.min.js"></script>
+    <script src="vendor/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="vendor/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="vendor/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
     <script src="dist/js/pages/dashboards/dashboard1.min.js"></script>
     <!--This page plugins -->
-    <script src="assets/extra-libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="vendor/extra-libs/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="dist/js/pages/datatable/datatable-basic.init.js"></script>
     <script>
-    $('#add_users').on('show.bs.modal', function (event) {
-    var button = $(event.relatedTarget) // Button that triggered the modal
-    var recipient = button.data('whatever') // Extract info from data-* attributes
-    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-    var modal = $(this)
-    modal.find('.modal-title').text('New message to ' + recipient)
-    modal.find('.modal-body input').val(recipient)
-    })
+        $('#add_users').on('show.bs.modal', function(event) {
+            var button = $(event.relatedTarget) // Button that triggered the modal
+            var recipient = button.data('whatever') // Extract info from data-* attributes
+            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+            var modal = $(this)
+            modal.find('.modal-title').text('New message to ' + recipient)
+            modal.find('.modal-body input').val(recipient)
+        })
     </script>
 
 </body>

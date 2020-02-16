@@ -11,17 +11,17 @@
                 <a href="index.php">
                     <b class="logo-icon">
                         <!-- Dark Logo icon -->
-                        <img src="assets/images/fav.png" alt="homepage" class="dark-logo" />
+                        <img src="vendor/images/fav.png" alt="homepage" class="dark-logo" />
                         <!-- Light Logo icon -->
-                        <img src="assets/images/fav.png" alt="homepage" class="light-logo" />
+                        <img src="vendor/images/fav.png" alt="homepage" class="light-logo" />
                     </b>
                     <!--End Logo icon -->
                     <!-- Logo text -->
                     <span class="logo-text">
                         <!-- dark Logo text -->
-                        <img src="assets/images/logo-teks.png" alt="homepage" class="dark-logo" />
+                        <img src="vendor/images/logo-teks.png" alt="homepage" class="dark-logo" />
                         <!-- Light Logo text -->
-                        <img src="assets/images/logo-teks.png" class="light-logo" alt="homepage" />
+                        <img src="vendor/images/logo-teks.png" class="light-logo" alt="homepage" />
                     </span>
                 </a>
             </div>
@@ -59,7 +59,7 @@
                 <!-- ============================================================== -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="assets/images/users/default.png" alt="user" class="rounded-circle" width="40">
+                        <img src="vendor/images/users/default.png" alt="user" class="rounded-circle" width="40">
                         <span class="ml-2 d-none d-lg-inline-block">
                             <span>Hello,</span>
                             <span class="text-dark">Admin</span>
