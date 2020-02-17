@@ -99,13 +99,7 @@
                             DATA PEMERIKSAAN
                         </div>
                         <div class="card-body">
-                            <div class="form-group row">
-                                <label class="col-sm-2 col-form-label">Hari/Tanggal</label>
-                                <div class="col-sm-10">
-                                    <input type="date" class="form-control" id="inputEmail3">
-                                </div>
-                            </div>
-
+                            <!-- input tanggal otomatis keisi pada sistem -->
 
                             <div class="row">
                                 <legend class="col-form-label col-sm-2 pt-0">Lokasi</legend>

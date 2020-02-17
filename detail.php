@@ -72,20 +72,17 @@
             <div class="page-breadcrumb">
                 <div class="row">
                     <div class="col-7 align-self-center">
-                        <h3 class="page-title text-truncate text-dark font-weight-medium mb-1">Detail</h3>
+                        <h3 class="page-title text-truncate text-dark font-weight-medium mb-1">Detail Laporan</h3>
                         <div class="d-flex align-items-center">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb m-0 p-0">
-                                    <ol class="breadcrumb mb-2">
-                                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="laporan.php">Laporan</a></li>
-                                        <li class="breadcrumb-item active">Detail</li>
-                                    </ol>
+                                    <li class="breadcrumb-item"><a href="">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="">Laporan</a></li>
+                                    <li class="breadcrumb-item active">Detail</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
-
                 </div>
             </div>
             <!-- ============================================================== -->
@@ -617,7 +614,7 @@
                             <div class="col-lg">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="font-weight-bold">Berdasarkan Hasil Diatas Maka Kendaraan Tersebut Dinyatakan:</div>
+                                        <div class="font-weight-normal">Berdasarkan Hasil Diatas Maka Kendaraan Tersebut Dinyatakan:</div>
                                     </div>
                                 </div>
                                 <div class="row mt-2">
@@ -631,7 +628,7 @@
                                     <div class="col-md">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="font-weight-bold">Catatan :</div>
+                                                <div class="font-weight-normal">Catatan :</div>
                                             </div>
                                         </div>
                                         <div class="col-md-10">
@@ -715,7 +712,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md">
-                                - <span class="badge badge-success">Hijau</span> : Dilarang/Tidak Laik
+                                - <span class="badge badge-danger">Merah</span> : Dilarang/Tidak Laik
                             </div>
                         </div>
 
@@ -778,7 +775,6 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <script type="text/javascript">
         $(function() {
-
             var start = moment().subtract(29, 'days');
             var end = moment();
 
