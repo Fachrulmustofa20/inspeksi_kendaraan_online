@@ -31,6 +31,14 @@
 </head>
 
 <body>
+
+    <?php
+
+    // konek database
+    include_once("koneksi.php");
+
+    ?>
+
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
     <!-- ============================================================== -->

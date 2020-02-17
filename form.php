@@ -101,6 +101,14 @@
                         <div class="card-body">
                             <!-- input tanggal otomatis keisi pada sistem -->
 
+
+                            <div class="form-group row">
+                                <label class="col-sm-2 col-form-label">Hari/Tanggal</label>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" name="tanggal">
+                                </div>
+                            </div>
+
                             <div class="row">
                                 <legend class="col-form-label col-sm-2 pt-0">Lokasi</legend>
                                 <div class="col-sm-10">
@@ -792,9 +800,29 @@
                             </fieldset>
                         </div>
                     </div>
+
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-center">
+                            Form Nama
+                        </div>
+                        <div class="card-body">
+
+                            <div class="form-group">
+                                <label>Nama Penyidik</label>
+                                <input type="text" class="form-control" name="nama_penyidik">
+                            </div>
+                            <div class="form-group">
+                                <label>Nip Penyidik</label>
+                                <input type="text" class="form-control" name="nip_penyidik">
+                            </div>
+
+                        </div>
+                    </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary">Simpan</button>
                     </div>
+
+
                 </form>
             </div>
         </div>
