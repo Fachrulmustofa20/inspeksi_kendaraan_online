@@ -1,12 +1,3 @@
-<?php
-// Create database connection using config file
-include_once("koneksi.php");
-
-// Fetch all users data from database
-$data = "SELECT * FROM form";
-$result = mysqli_query($mysqli, $data);
-?>
-
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 
@@ -123,24 +114,6 @@ $result = mysqli_query($mysqli, $data);
                                             </tr>
                                         </thead>
                                         <tbody class="text-center">
-
-
-                                            <?php $no = 1; ?>
-                                            <?php while ($row = mysqli_fetch_array($result)) : ?>
-                                                <tr>
-                                                    <td><?= $no++; ?></td>
-                                                    <td><?= $row['tgl']; ?></td>
-                                                    <td><?= $row['nama_pngmd']; ?></td>
-                                                    <td><?= $row['nama_po']; ?></td>
-                                                    <td><?= $row['no_kendaraan']; ?></td>
-                                                    <td><?= $row['no_stuk']; ?></td>
-                                                    <td>
-                                                        <a href="detail.php" class="btn btn-success btn-sm"><i class="fas fa-info-circle fa-sm mr-2"></i>Detail</a>
-                                                    </td>
-
-                                                </tr>
-                                            <?php endwhile; ?>
-
 
 
 

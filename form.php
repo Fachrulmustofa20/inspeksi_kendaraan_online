@@ -818,6 +818,61 @@
 
                         </div>
                     </div>
+
+                    <div class="card">
+                        <div class="card-header bg-primary text-white text-center">
+                            Kesimpulan
+                        </div>
+                        <div class="card-body">
+                            <!--start card-->
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <div class="card-header bg-success text-white text-center">
+                                            Laik Jalan
+                                        </div>
+                                        <div class="card-body">
+
+                                            <div class="form-group">
+                                                <input type="radio" name="answer[35]" value="ada">
+                                                Diijinkan Operasional
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <div class="card-header bg-danger text-white text-center">
+                                            Tidak Laik Jalan
+                                        </div>
+                                        <div class="card-body">
+
+                                            <div class="form-group">
+                                                <input type="radio" name="answer[35]" value="ada">
+                                                Dilarang Operasional
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <div class="card-header text-center">
+                                            Catatan
+                                        </div>
+                                        <div class="card-body">
+                                            <textarea class="form-control" id="catatan" name="catatan" rows="1"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--start card-->
+                        </div>
+                    </div>
+
+
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary">Simpan</button>
                     </div>
